@@ -3,7 +3,7 @@ title: Tejas Viswanath
 author: Tejas Viswanath
 email: tejasviswa@gmail.com
 description: Tejas Viswanath is a student
-baseurl: "/ubuild-jekyll"
+baseurl: "/"
 url: ''
 defaults:
 - scope:
