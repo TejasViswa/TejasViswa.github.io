@@ -5,12 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: FORESTRY-README.md
-  label: Welcome - First Steps
+  path: README.md
+  label: About
   read_only: true
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - 2-column-media-element
 - type: directory
   path: ''
   label: Pages
@@ -18,6 +20,8 @@ sections:
   match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
+  templates:
+  - 2-column-media-element
 - type: document
   path: _config.yml
   label: Config
